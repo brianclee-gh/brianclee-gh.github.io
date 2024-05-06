@@ -79,7 +79,7 @@
   }
   
   #cvv::before {
-    content: 'CSV ';
+    content: 'CVC ';
   }
   
   #cvv:hover, #pan:hover, #month:hover, #year:hover  {
