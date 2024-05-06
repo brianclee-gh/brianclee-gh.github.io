@@ -23,7 +23,7 @@
   
   #pan {
     border-radius: 6px;
-    bottom: 5em;
+    bottom: 4.5em;
     cursor: pointer;
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@
     font-weight: 400;
     left: 80px;
     line-height: 30px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     padding: 2px 4px 0;
     position: absolute;
     text-shadow: 1px 0px 1px rgba(44, 15, 79, 0.85);
@@ -68,7 +68,7 @@
     left: 132px;
     line-height: 30px;
     margin-left: 250px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     padding: 2px 4px 0;
     position: absolute;
     text-shadow: 1px 0px 1px rgba(44, 15, 79, 0.85);
@@ -79,7 +79,7 @@
   }
   
   #cvv::before {
-    content: 'CSS ';
+    content: 'CSV ';
   }
   
   #cvv:hover, #pan:hover, #month:hover, #year:hover  {
