@@ -4,10 +4,10 @@
     align-items: center;
     justify-content: center;
     font-family: "Lexend", sans-serif;
-    background-image: url("https://getflex.com/wp-content/webp-express/webp-images/uploads/2024/01/flex_logo_white-1.png.webp");
+    background-image: url("https://brianclee-gh.github.io/logo.svg");
     background-repeat: no-repeat;
-    background-position: top 100px left 50px;
-    font-size: 5rem;
+    background-position: top 75px left 75px;
+    font-size: 4.5rem;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -38,7 +38,7 @@
   #expiry {
     border-radius: 6px;
     bottom: 24px;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 400;
     left: 1em;
     line-height: 30px;
@@ -58,7 +58,7 @@
   #cvv {
     border-radius: 6px;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 400;
     line-height: 30px;
     margin-left: auto;
