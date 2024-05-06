@@ -3,12 +3,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Lexend", sans-serif;
     background-image: url("https://getflex.com/wp-content/webp-express/webp-images/uploads/2024/01/flex_logo_white-1.png.webp");
     background-repeat: no-repeat;
-    /* background-position will need adjusting depending on your logo */
-    background-position: bottom 200px left 190px;
-    font-size: 6rem;
+    background-position: top 100px left 50px;
+    font-size: 5rem;
     height: 100%;
     overflow: hidden;
     position: relative;
@@ -16,7 +15,7 @@
     width: 100%;
     color: #fff;
   }
-  
+
   .pan-separator {
     margin: 0.2em;
   }
@@ -39,7 +38,7 @@
   #expiry {
     border-radius: 6px;
     bottom: 24px;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 400;
     left: 1em;
     line-height: 30px;
@@ -59,7 +58,7 @@
   #cvv {
     border-radius: 6px;
     cursor: pointer;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 30px;
     margin-left: auto;
@@ -68,7 +67,6 @@
     margin-top: auto;
     opacity: 0.8;
     padding: 2px 4px 0;
-    margin-
   }
   
   #expiry::before {
@@ -76,7 +74,7 @@
   }
   
   #cvv::before {
-    content: 'CVV ';
+    content: 'CVC ';
   }
   
   #cvv:hover, #pan:hover, #month:hover, #year:hover  {
