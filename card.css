@@ -15,6 +15,7 @@
     box-sizing: border-box;
     line-height: 24px;
     padding: 24px;
+    background-color: #6a3db8;
   }
 
   .pan-separator {
@@ -23,33 +24,33 @@
   
   #pan {
     border-radius: 6px;
-    bottom: 65px;
+    bottom: 5em;
     cursor: pointer;
     display: flex;
     flex-direction: row;
-    font-size: 16px;
+    font-size: 3em;
     font-weight: 500;
     height: 32px;
     justify-content: center;
-    left: 14px;
-    /* letter-spacing: 6px; */
+    left: 34px;
+    letter-spacing: 3px;
     line-height: 30px;
     padding: 2px 10px 0;
     position: absolute;
-    text-shadow: 1px 0px 1px 0px rgba(44, 15, 79, 0.85);
+    text-shadow: 1px 0px 1px rgba(44, 15, 79, 0.85);
   }
   
   #expiry {
     border-radius: 6px;
-    bottom: 24px;
-    font-size: 16;
+    bottom: 3em;
+    font-size: 2.5em;
     font-weight: 400;
-    left: 20px;
+    left: 40px;
     line-height: 30px;
     opacity: 0.8;
     padding: 2px 4px 0;
     position: absolute;
-    text-shadow: 1px 0px 1px 0px rgba(44, 15, 79, 0.85);
+    text-shadow: 1px 0px 1px rgba(44, 15, 79, 0.85);
   }
   
   #month, #year {
@@ -61,17 +62,17 @@
   
   #cvv {
     border-radius: 6px;
-    bottom: 24px;
+    bottom: 3em;
     cursor: pointer;
-    font-size: 16;
+    font-size: 2.5em;
     font-weight: 400;
     left: 92px;
     line-height: 30px;
-    margin-left: 25px;
+    margin-left: 250px;
     opacity: 0.8;
     padding: 2px 4px 0;
     position: absolute;
-    text-shadow: 1px 0px 1px 0px rgba(44, 15, 79, 0.85);
+    text-shadow: 1px 0px 1px rgba(44, 15, 79, 0.85);
   }
   
   #expiry::before {
