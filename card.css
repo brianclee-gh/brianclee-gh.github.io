@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'Lexend';
-  src: url('https://fonts.googleapis.com/css2?family=Lexend:wght@500');
-}
+@import url("https://fonts.googleapis.com/css2?family=Lexend");
 
 #card {
   display: flex;
